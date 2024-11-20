@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 7505462141080890452}
   m_Layer: 0
   m_Name: Sensya_Milata
-  m_TagString: Untagged
+  m_TagString: Mikata
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d129e9fb649dd3540b92273c878264d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetObjectName: Cube_Teki_Biru1
+  targetObjectName: A2
 --- !u!54 &-1423434570960086340
 Rigidbody:
   m_ObjectHideFlags: 0
