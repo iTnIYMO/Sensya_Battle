@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     public GameObject score_object = null;
-    public int score_num = 0;
+    public float score_num = 0.0f;
+    public int seconds = 0;
 
-    private void Update()
+    private void FixedUpdate()
     {
         Text score_text = score_object.GetComponent<Text>();
-        score_text.text = "Time:" + score_num;
-
-        score_num += 1;
+        seconds = (int)score_num;
+        score_text.text = "Time:" + seconds;
+        score_num += 0.02f;
     }
 }
