@@ -264,6 +264,7 @@ GameObject:
   - component: {fileID: -1423434570960086340}
   - component: {fileID: 1511729065084585996}
   - component: {fileID: 7505462141080890452}
+  - component: {fileID: 8896481737171484259}
   m_Layer: 0
   m_Name: Sensya_Milata
   m_TagString: Mikata
@@ -381,6 +382,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagName: Teki
+--- !u!114 &8896481737171484259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7157537996148871157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31774a834e4a8514d8c2e66d1f60a1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myParticle: {fileID: 1491631866592660919, guid: e2c16f64215a4fb4aa9c85eede6b1072, type: 3}
 --- !u!1 &7212977420593234112
 GameObject:
   m_ObjectHideFlags: 0
